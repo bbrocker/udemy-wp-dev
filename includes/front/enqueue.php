@@ -30,7 +30,7 @@ function ju_enqueue(){
     wp_enqueue_style( 'ju_custom' );
 
     wp_register_script( 'ju_plugins', $uri . '/assets/js/plugins.js', [], $ver, true);
-    wp_register_script( 'ju_functions', $uri . '/assets/js/fnctions.js', [], $ver, true);
+    wp_register_script( 'ju_functions', $uri . '/assets/js/functions.js', [], $ver, true);
 
     wp_enqueue_script( 'jquery' );
     wp_enqueue_script( 'ju_plugins' );
